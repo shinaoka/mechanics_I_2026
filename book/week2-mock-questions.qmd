@@ -1,0 +1,91 @@
+---
+title: "第2週の確認模擬問題"
+---
+
+このページには, 第2週の講義内容に対応する確認模擬問題をまとめる. 問題文のみを載せるので, 必要に応じて講義ノートと教科書を見直しながら考えること.
+
+## 問題1 {.unnumbered}
+
+2 次元極座標で点 $P$ が
+
+$$
+(r,\theta) = (4, \pi/3)
+$$
+
+で与えられている.
+
+1. この点のデカルト座標 $(x,y)$ を求めよ.
+2. 位置ベクトル $\mathbf{r}$ を 2 次元デカルト座標での成分表示で書け.
+
+## 問題2 {.unnumbered}
+
+2 次元極座標で
+
+$$
+\mathbf{r} = (r\cos\theta, r\sin\theta)
+$$
+
+とする. 点 $(r,\theta) = (3,\pi/6)$ において次を求めよ. ただし, ベクトルはすべて 2 次元デカルト座標での成分表示で答えること.
+
+1. $\frac{\partial \mathbf{r}}{\partial r}$
+2. $\frac{\partial \mathbf{r}}{\partial \theta}$
+3. $\mathbf{e}_\theta = \frac{1}{r}\frac{\partial \mathbf{r}}{\partial \theta}$
+
+## 問題3 {.unnumbered}
+
+関数
+
+$$
+f(x,y) = x^2 + 2xy
+$$
+
+を考える. 曲線
+
+$$
+y = x^2
+$$
+
+に沿って動くとき, 点 $(1,1)$ における $\frac{df}{dx}$ を求めよ.
+
+## 問題4 {.unnumbered}
+
+関数
+
+$$
+f(x,y) = x^2 - y
+$$
+
+と, 媒介変数表示
+
+$$
+x = 1+t,\qquad y = t^2
+$$
+
+を考える.
+
+1. $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ を求めよ.
+2. チェーンルール
+
+$$
+\frac{d}{dt}f(x(t),y(t))
+=
+\frac{dx}{dt}\frac{\partial f}{\partial x}
++
+\frac{dy}{dt}\frac{\partial f}{\partial y}
+$$
+
+を用いて $\frac{d}{dt}f(x(t),y(t))$ を求めよ.
+3. $t=1$ での値を求めよ.
+
+## 問題5 {.unnumbered}
+
+3 次元球座標で
+
+$$
+(r,\theta,\phi) = (2,\pi/3,\pi/6)
+$$
+
+とする.
+
+1. 対応するデカルト座標 $(x,y,z)$ を求めよ.
+2. 位置ベクトル $\mathbf{r}$ を 3 次元デカルト座標での成分表示で書け.

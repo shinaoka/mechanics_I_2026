@@ -3,9 +3,15 @@ project:
   output-dir: dist
   render:
     - index.qmd
-    - week1-mock-questions.qmd
     - position-time.qmd
     - velocity-acceleration.qmd
+    - laws-and-concepts.qmd
+    - week1-mock-questions.qmd
+    - week2-mock-questions.qmd
+    - week3-mock-questions.qmd
+    - week4-mock-questions.qmd
+    - week5-mock-questions.qmd
+    - week6-mock-questions.qmd
 
 book:
   title: "力学 I"
@@ -14,7 +20,13 @@ book:
     - index.qmd
     - position-time.qmd
     - velocity-acceleration.qmd
+    - laws-and-concepts.qmd
     - week1-mock-questions.qmd
+    - week2-mock-questions.qmd
+    - week3-mock-questions.qmd
+    - week4-mock-questions.qmd
+    - week5-mock-questions.qmd
+    - week6-mock-questions.qmd
 
 format:
   html:
