@@ -37,7 +37,23 @@ $$
 - 座標は数値である
 - ベクトルは幾何学的対象である
 
-2 つのベクトル $\mathbf{a}, \mathbf{b}$ に対して, 内積は
+デカルト座標の基底 $\mathbf{e}_x,\mathbf{e}_y,\mathbf{e}_z$ が正規直交基底である, すなわち
+
+$$
+\mathbf{e}_x \cdot \mathbf{e}_x = 1,\qquad
+\mathbf{e}_y \cdot \mathbf{e}_y = 1,\qquad
+\mathbf{e}_z \cdot \mathbf{e}_z = 1
+$$
+
+および
+
+$$
+\mathbf{e}_x \cdot \mathbf{e}_y = 0,\qquad
+\mathbf{e}_y \cdot \mathbf{e}_z = 0,\qquad
+\mathbf{e}_z \cdot \mathbf{e}_x = 0
+$$
+
+を満たすとき, 2 つのベクトル $\mathbf{a}, \mathbf{b}$ の内積は
 
 $$
 \mathbf{a} \cdot \mathbf{b} = a_x b_x + a_y b_y + a_z b_z
