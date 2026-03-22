@@ -6,6 +6,11 @@ project:
     - position-time.qmd
     - velocity-acceleration.qmd
     - laws-and-concepts.qmd
+    - equations-of-motion.qmd
+    - oscillation-and-wave.qmd
+    - central-force.qmd
+    - coordinate-transformations.qmd
+    - many-particle-and-rigid-body.qmd
     - week1-mock-questions.qmd
     - week2-mock-questions.qmd
     - week3-mock-questions.qmd
@@ -21,6 +26,11 @@ book:
     - position-time.qmd
     - velocity-acceleration.qmd
     - laws-and-concepts.qmd
+    - equations-of-motion.qmd
+    - oscillation-and-wave.qmd
+    - central-force.qmd
+    - coordinate-transformations.qmd
+    - many-particle-and-rigid-body.qmd
     - week1-mock-questions.qmd
     - week2-mock-questions.qmd
     - week3-mock-questions.qmd
