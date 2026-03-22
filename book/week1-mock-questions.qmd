@@ -63,6 +63,8 @@ $$
 
 とする. 点 $(r,\theta) = (2,\pi/6)$ において次を求めよ.
 
+ただし, ベクトルはすべて 2 次元デカルト座標での成分表示で答えること.
+
 1. 位置ベクトル $\mathbf{r}$ を成分表示で書け.
 2. $\frac{\partial \mathbf{r}}{\partial r}$ を求めよ.
 3. $\frac{\partial \mathbf{r}}{\partial \theta}$ を求めよ.
