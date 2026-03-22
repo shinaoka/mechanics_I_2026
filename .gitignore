@@ -1,0 +1,6 @@
+.DS_Store
+
+# Quarto / book build output
+book/dist/
+book/.quarto/
+book/.shiroa/

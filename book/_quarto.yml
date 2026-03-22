@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: dist
+  render:
+    - index.qmd
+    - position-time.qmd
+    - velocity-acceleration.qmd
+
+book:
+  title: "力学 I"
+  author: "品岡寛"
+  chapters:
+    - index.qmd
+    - position-time.qmd
+    - velocity-acceleration.qmd
+
+format:
+  html:
+    theme: cosmo
+    lang: ja
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    css: custom.css
+    include-after-body: custom.js

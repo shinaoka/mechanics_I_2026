@@ -1,0 +1,20 @@
+/* Spell (text code blocks) styling - optional prompts */
+html body div.quarto-layout-panel main.content section pre.text,
+html body main.content section pre.text,
+body main section pre.text,
+section pre.text,
+pre.text {
+  background-color: #fff4e6 !important;
+  border-left: 4px solid #ff9800 !important;
+  margin: 1em 0;
+  padding: 0.8em 1em !important;
+}
+
+pre.text code {
+  background-color: transparent !important;
+}
+
+button.quarto-code-copy-button {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
