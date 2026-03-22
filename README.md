@@ -1,6 +1,6 @@
 ## 力学 I — 講義ノート
 
-[Julia 春の学校 2026 教材](https://github.com/shinaoka/julia_spring_school_2026) と同様、Quarto で HTML を生成し GitHub Pages で公開する想定のリポジトリである。
+ブラウザからは、[https://shinaoka.github.io/mechanics_I_2026/](https://shinaoka.github.io/mechanics_I_2026/) で確認できる。
 
 ### ローカルでの確認
 
