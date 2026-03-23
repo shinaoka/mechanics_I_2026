@@ -3,6 +3,7 @@ project:
   output-dir: dist
   render:
     - index.qmd
+    - textbook-toc.qmd
     - position-time.qmd
     - velocity-acceleration.qmd
     - laws-and-concepts.qmd
@@ -23,6 +24,7 @@ book:
   author: "品岡寛"
   chapters:
     - index.qmd
+    - textbook-toc.qmd
     - position-time.qmd
     - velocity-acceleration.qmd
     - laws-and-concepts.qmd
