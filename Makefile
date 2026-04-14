@@ -1,6 +1,6 @@
 BOOK_DIR := book
 
-.PHONY: build serve clean exercises-pdf exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 preview-pdf preview-pdf-folder
+.PHONY: build serve clean enrollment-pdf exercises-pdf exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 preview-pdf preview-pdf-folder
 
 # 演習 PDF をプレビュー（macOS の既定アプリ, 通常は Preview）. 例: make preview-pdf WEEK=3
 WEEK ?= 1
@@ -10,6 +10,11 @@ preview-pdf:
 # book/pdf を Finder で開く
 preview-pdf-folder:
 	open "$(BOOK_DIR)/pdf"
+
+# 受講の注意スライド（Typst）→ book/pdf/enrollment-notice.pdf
+enrollment-pdf:
+	mkdir -p $(BOOK_DIR)/pdf
+	typst compile $(BOOK_DIR)/enrollment-notice-slides.typ $(BOOK_DIR)/pdf/enrollment-notice.pdf
 
 build:
 	cd $(BOOK_DIR) && quarto render

@@ -27,14 +27,15 @@ jobs:
       - name: Build book
         run: make build
 
-      - name: Verify site includes exercise PDFs
+      - name: Verify site includes PDFs
         run: |
           set -e
+          test -f book/dist/pdf/enrollment-notice.pdf || { echo "missing: book/dist/pdf/enrollment-notice.pdf"; exit 1; }
           for n in 1 2 3 4 5 6; do
             f="book/dist/pdf/week${n}-exercises.pdf"
             test -f "$f" || { echo "missing: $f"; exit 1; }
           done
-          echo "OK: all week*-exercises.pdf present under dist/pdf/"
+          echo "OK: enrollment-notice.pdf and week*-exercises.pdf present under dist/pdf/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

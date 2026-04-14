@@ -2,6 +2,7 @@ project:
   type: book
   output-dir: dist
   resources:
+    - pdf/enrollment-notice.pdf
     - pdf/week1-exercises.pdf
     - pdf/week2-exercises.pdf
     - pdf/week3-exercises.pdf
