@@ -3,7 +3,7 @@
 #set text(
   lang: "ja",
   font: ("Hiragino Mincho ProN", "Times", "Arial Unicode MS"),
-  size: 16pt,
+  size: 16pt * 1.2,
 )
 #set page(
   paper: "presentation-16-9",
@@ -41,6 +41,16 @@
 
   *復習* \
   *次回のテストに向けて，復習は必須* です．
+]
+
+#pagebreak()
+
+= 力学と数学
+
+#block(inset: (left: 0.5em))[
+  高校までの物理とは違って，大学の力学では *数学を駆使* します．\
+  ベクトル，微分，積分などがその *言語* になります．\
+  *これらをちゃんと使いこなせるようにすることがとても重要* です．
 ]
 
 #pagebreak()
