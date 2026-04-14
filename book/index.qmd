@@ -21,38 +21,38 @@ title: "はじめに"
   - 全微分
   - 基底ベクトル
   - 勾配と内積
-  - [確認模擬問題](week1-mock-questions.html)
+  - 演習問題: [HTML](week1-exercises.html) · [PDF](pdf/week1-exercises.pdf)
 - 第2週: [第1章 後半: 座標系と媒介変数表示](position-time.html#week2)
   - 座標とは何か
   - デカルト座標
   - 2 次元極座標
   - 3 次元球座標
   - 媒介変数表示と変化
-  - [確認模擬問題](week2-mock-questions.html)
+  - 演習問題: [HTML](week2-exercises.html) · [PDF](pdf/week2-exercises.pdf)
 - 第3週: [第2章 前半: 速度と加速度](velocity-acceleration.html#week3)
   - 速度
   - 加速度
   - デカルト座標と極座標での記述
-  - [確認模擬問題](week3-mock-questions.html)
+  - 演習問題: [HTML](week3-exercises.html) · [PDF](pdf/week3-exercises.pdf)
 - 第4週: [第2章 後半: 積分と次元解析](velocity-acceleration.html#week4)
   - 速度・加速度の積分
   - 線積分・面積分・体積分
   - 次元解析
-  - [確認模擬問題](week4-mock-questions.html)
+  - 演習問題: [HTML](week4-exercises.html) · [PDF](pdf/week4-exercises.pdf)
 - 第5週: [第3章 前半: 運動の3法則と運動量](laws-and-concepts.html#week5)
   - 運動の3法則
   - 慣性系
   - 質量と力
   - 運動量
   - 運動量保存則
-  - [確認模擬問題](week5-mock-questions.html)
+  - 演習問題: [HTML](week5-exercises.html) · [PDF](pdf/week5-exercises.pdf)
 - 第6週: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](laws-and-concepts.html#week6)
   - 角運動量
   - 力のモーメント
   - 力積
   - 運動エネルギー
   - 仕事
-  - [確認模擬問題](week6-mock-questions.html)
+  - 演習問題: [HTML](week6-exercises.html) · [PDF](pdf/week6-exercises.pdf)
 - 第7週: [第4章 前半: 1 次元運動](equations-of-motion.html#week7)
   - 運動方程式の立て方
   - 等加速度運動

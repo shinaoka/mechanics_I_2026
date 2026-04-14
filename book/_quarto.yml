@@ -1,6 +1,13 @@
 project:
   type: book
   output-dir: dist
+  resources:
+    - pdf/week1-exercises.pdf
+    - pdf/week2-exercises.pdf
+    - pdf/week3-exercises.pdf
+    - pdf/week4-exercises.pdf
+    - pdf/week5-exercises.pdf
+    - pdf/week6-exercises.pdf
   render:
     - index.qmd
     - textbook-toc.qmd
@@ -12,16 +19,33 @@ project:
     - central-force.qmd
     - coordinate-transformations.qmd
     - many-particle-and-rigid-body.qmd
-    - week1-mock-questions.qmd
-    - week2-mock-questions.qmd
-    - week3-mock-questions.qmd
-    - week4-mock-questions.qmd
-    - week5-mock-questions.qmd
-    - week6-mock-questions.qmd
+    - week1-exercises.qmd
+    - week2-exercises.qmd
+    - week3-exercises.qmd
+    - week4-exercises.qmd
+    - week5-exercises.qmd
+    - week6-exercises.qmd
 
 book:
   title: "力学 I"
   author: "品岡寛"
+  navbar:
+    search: true
+    right:
+      - text: "演習 PDF"
+        menu:
+          - text: "第1週"
+            href: pdf/week1-exercises.pdf
+          - text: "第2週"
+            href: pdf/week2-exercises.pdf
+          - text: "第3週"
+            href: pdf/week3-exercises.pdf
+          - text: "第4週"
+            href: pdf/week4-exercises.pdf
+          - text: "第5週"
+            href: pdf/week5-exercises.pdf
+          - text: "第6週"
+            href: pdf/week6-exercises.pdf
   chapters:
     - index.qmd
     - textbook-toc.qmd
@@ -33,12 +57,12 @@ book:
     - central-force.qmd
     - coordinate-transformations.qmd
     - many-particle-and-rigid-body.qmd
-    - week1-mock-questions.qmd
-    - week2-mock-questions.qmd
-    - week3-mock-questions.qmd
-    - week4-mock-questions.qmd
-    - week5-mock-questions.qmd
-    - week6-mock-questions.qmd
+    - week1-exercises.qmd
+    - week2-exercises.qmd
+    - week3-exercises.qmd
+    - week4-exercises.qmd
+    - week5-exercises.qmd
+    - week6-exercises.qmd
 
 format:
   html:

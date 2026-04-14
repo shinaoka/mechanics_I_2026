@@ -2,5 +2,17 @@
 
 # Quarto / book build output
 book/dist/
+book/dist-exercises-pdf/
+book/dist-weekly-pdf-tmp/
+book/pdf-weekly/**/build.pdf
+book/pdf-weekly/**/.quarto/
 book/.quarto/
+
+# LaTeX / Quarto が book 直下に残す中間ファイル（誤ってコミットしない）
+book/*.aux
+book/*.log
+book/*.toc
+book/*.pdf.md
+book/*.tex
+book/*.synctex.gz
 book/.shiroa/

@@ -12,3 +12,5 @@
 ### GitHub Pages
 
 `main` への push で [`.github/workflows/pages.yml`](.github/workflows/pages.yml) が走り, `book/dist` をデプロイする. リポジトリの Settings → Pages で GitHub Actions をソースに指定すること. 
+
+ビルド後に `book/dist/pdf/week*-exercises.pdf` の存在を検査する. 演習 PDF は `make exercises-pdf` で生成し, `book/pdf/` に置いたうえでコミットする（CI では LaTeX を入れず HTML のみビルドする）. サイト上部ナビの「演習 PDF」からも各週の PDF に飛べる. 

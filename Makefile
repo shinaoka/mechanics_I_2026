@@ -1,6 +1,15 @@
 BOOK_DIR := book
 
-.PHONY: build serve clean
+.PHONY: build serve clean exercises-pdf exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 preview-pdf preview-pdf-folder
+
+# 演習 PDF をプレビュー（macOS の既定アプリ, 通常は Preview）. 例: make preview-pdf WEEK=3
+WEEK ?= 1
+preview-pdf:
+	open "$(BOOK_DIR)/pdf/week$(WEEK)-exercises.pdf"
+
+# book/pdf を Finder で開く
+preview-pdf-folder:
+	open "$(BOOK_DIR)/pdf"
 
 build:
 	cd $(BOOK_DIR) && quarto render
@@ -8,5 +17,40 @@ build:
 serve:
 	cd $(BOOK_DIR) && quarto preview
 
+# 演習問題を週ごとの PDF にし, book/pdf/weekN-exercises.pdf に置く
+exercises-pdf: exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6
+
+# 隔離サブプロジェクト（book/pdf-weekly/wN）で ltjsarticle により週だけを PDF 化
+exercises-pdf-w1:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w1 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w1/build.pdf $(BOOK_DIR)/pdf/week1-exercises.pdf
+
+exercises-pdf-w2:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w2 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w2/build.pdf $(BOOK_DIR)/pdf/week2-exercises.pdf
+
+exercises-pdf-w3:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w3 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w3/build.pdf $(BOOK_DIR)/pdf/week3-exercises.pdf
+
+exercises-pdf-w4:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w4 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w4/build.pdf $(BOOK_DIR)/pdf/week4-exercises.pdf
+
+exercises-pdf-w5:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w5 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w5/build.pdf $(BOOK_DIR)/pdf/week5-exercises.pdf
+
+exercises-pdf-w6:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w6 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w6/build.pdf $(BOOK_DIR)/pdf/week6-exercises.pdf
+
 clean:
-	rm -rf $(BOOK_DIR)/dist
+	rm -rf $(BOOK_DIR)/dist $(BOOK_DIR)/dist-exercises-pdf $(BOOK_DIR)/dist-weekly-pdf-tmp
+	rm -f $(BOOK_DIR)/pdf-weekly/w*/build.pdf
