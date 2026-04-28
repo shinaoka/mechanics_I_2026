@@ -119,3 +119,39 @@ $$
 を用いて $\frac{d}{dt}f(x(t),y(t))$ を求めよ.
 
 3. $t=1$ での値を求めよ.
+
+## 問題6 {.unnumbered}
+
+2 次元極座標の基底 $\mathbf{e}_r,\mathbf{e}_\phi$ とデカルト座標の基底 $\mathbf{e}_x,\mathbf{e}_y$ の間には
+
+$$
+\begin{pmatrix}
+\mathbf{e}_r \\
+\mathbf{e}_\phi
+\end{pmatrix}
+=
+A(\phi)
+\begin{pmatrix}
+\mathbf{e}_x \\
+\mathbf{e}_y
+\end{pmatrix}
+$$
+
+という関係がある. ただし
+
+$$
+A(\phi)
+=
+\begin{pmatrix}
+\cos\phi & \sin\phi \\
+-\sin\phi & \cos\phi
+\end{pmatrix}
+$$
+
+とする.
+
+1. $A(\phi)$ が直交行列であることを示せ.
+2. $A(\phi)^{-1}$ を求めよ.
+3. $\mathbf{e}_x,\mathbf{e}_y$ を $\mathbf{e}_r,\mathbf{e}_\phi$ を用いて表せ.
+
+ヒント: 直交行列 $A$ については, $A^{-1} = A^\mathsf{T}$ が成り立つ.
