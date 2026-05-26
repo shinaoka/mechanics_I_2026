@@ -125,3 +125,96 @@ $$
 3. 位置 $x(t)$ を各区間で求め, $t=1,2$ で連続であることを確認せよ.
 
 4. $v(t)$ のグラフの概形を描き, デルタ関数的な力が運動にどのような影響を与えるかを説明せよ.
+
+## 問題7 {.unnumbered}
+
+3 次元デカルト座標で, 完全反対称テンソルを $\varepsilon_{ijk}$, クロネッカーのデルタを $\delta_{ij}$ とする. 添字が同じ文字で 2 回現れるときは, その添字について和をとるものとする.
+
+ベクトル $\mathbf{A},\mathbf{B},\mathbf{C},\mathbf{D}$ に対して, 外積の成分を
+
+$$
+(\mathbf{A}\times\mathbf{B})_i
+=
+\varepsilon_{ijk}A_jB_k
+$$
+
+で定義する.
+
+1. 次の恒等式を示せ.
+
+$$
+\varepsilon_{ijk}\varepsilon_{imn}
+=
+\delta_{jm}\delta_{kn}
+-
+\delta_{jn}\delta_{km}.
+$$
+
+2. これを用いて, 次のベクトル恒等式を示せ.
+
+$$
+(\mathbf{A}\times\mathbf{B})\cdot(\mathbf{C}\times\mathbf{D})
+=
+(\mathbf{A}\cdot\mathbf{C})(\mathbf{B}\cdot\mathbf{D})
+-
+(\mathbf{A}\cdot\mathbf{D})(\mathbf{B}\cdot\mathbf{C}).
+$$
+
+3. 特に $\mathbf{C}=\mathbf{A}$, $\mathbf{D}=\mathbf{B}$ として,
+
+$$
+|\mathbf{A}\times\mathbf{B}|^2
+=
+|\mathbf{A}|^2|\mathbf{B}|^2
+-
+(\mathbf{A}\cdot\mathbf{B})^2
+$$
+
+を導け. また, この式の幾何学的意味を説明せよ.
+
+## 問題8 {.unnumbered}
+
+時刻 $t$ に依存するベクトルを $\mathbf{r}(t)$ とし,
+
+$$
+\mathbf{v}(t)=\frac{d\mathbf{r}}{dt},\qquad
+\mathbf{a}(t)=\frac{d\mathbf{v}}{dt}
+$$
+
+とする. また, $\mathbf{b}$ は時間に依存しない定ベクトルとする.
+
+次の量を $t$ で微分せよ.
+
+1.
+
+$$
+\mathbf{r}(t)\times\mathbf{v}(t)
+$$
+
+2.
+
+$$
+\mathbf{r}(t)\times\left(\mathbf{v}(t)\times\mathbf{a}(t)\right)
+$$
+
+3.
+
+$$
+|\mathbf{r}(t)|^2\mathbf{r}(t)+\mathbf{b}\times\mathbf{v}(t)
+$$
+
+4. 質量 $m$ の質点について, 角運動量を
+
+$$
+\mathbf{L}=m\mathbf{r}\times\mathbf{v}
+$$
+
+と定義する. 運動方程式 $m\mathbf{a}=\mathbf{F}$ を用いて,
+
+$$
+\frac{d\mathbf{L}}{dt}
+=
+\mathbf{r}\times\mathbf{F}
+$$
+
+を示せ.
