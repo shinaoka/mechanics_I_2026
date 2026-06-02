@@ -64,6 +64,7 @@ title: "はじめに"
   - 等加速度運動
   - 単振動
   - 位置エネルギーの導入
+  - 演習問題: [HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)
 - 第8週: [第4章 中盤: 抵抗力と 2 次元運動](equations-of-motion.html#week8)
   - 抵抗力
   - 終端速度

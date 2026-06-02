@@ -31,7 +31,7 @@ jobs:
         run: |
           set -e
           test -f book/dist/pdf/enrollment-notice.pdf || { echo "missing: book/dist/pdf/enrollment-notice.pdf"; exit 1; }
-          for n in 1 2 3 4 5 6; do
+          for n in 1 2 3 4 5 6 7; do
             f="book/dist/pdf/week${n}-exercises.pdf"
             test -f "$f" || { echo "missing: $f"; exit 1; }
           done
