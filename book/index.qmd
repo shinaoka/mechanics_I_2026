@@ -70,6 +70,7 @@ title: "はじめに"
   - 終端速度
   - 成分分解
   - 2 次元での運動方程式
+  - 演習問題: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
 - 第9週: [第4章 後半: 仕事と位置エネルギー](equations-of-motion.html#week9)
   - 線積分
   - 保存力

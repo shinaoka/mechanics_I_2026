@@ -10,6 +10,7 @@ project:
     - pdf/week5-exercises.pdf
     - pdf/week6-exercises.pdf
     - pdf/week7-exercises.pdf
+    - pdf/week8-exercises.pdf
   render:
     - index.qmd
     - textbook-toc.qmd
@@ -28,6 +29,7 @@ project:
     - week5-exercises.qmd
     - week6-exercises.qmd
     - week7-exercises.qmd
+    - week8-exercises.qmd
 
 book:
   title: "力学 I"
@@ -51,6 +53,8 @@ book:
             href: pdf/week6-exercises.pdf
           - text: "第7週"
             href: pdf/week7-exercises.pdf
+          - text: "第8週"
+            href: pdf/week8-exercises.pdf
   chapters:
     - index.qmd
     - textbook-toc.qmd
@@ -69,6 +73,7 @@ book:
     - week5-exercises.qmd
     - week6-exercises.qmd
     - week7-exercises.qmd
+    - week8-exercises.qmd
 
 format:
   html:
