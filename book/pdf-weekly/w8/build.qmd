@@ -1,0 +1,12 @@
+---
+title: "第8週の演習問題"
+format:
+  pdf:
+    lang: ja
+    pdf-engine: lualatex
+    documentclass: ltjsarticle
+    geometry:
+      - margin=19mm
+---
+
+{{< include ../../week8-exercises.qmd >}}
