@@ -65,44 +65,47 @@ title: "はじめに"
   - 単振動
   - 位置エネルギーの導入
   - 演習問題: [HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)
-- 第8週: [第4章 中盤: 抵抗力と 2 次元運動](equations-of-motion.html#week8)
+- 第8週: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](equations-of-motion.html#week8)
   - 抵抗力
   - 終端速度
   - 成分分解
   - 2 次元での運動方程式
-  - 演習問題: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
-- 第9週: [第4章 後半: 仕事と位置エネルギー](equations-of-motion.html#week9)
   - 線積分
   - 保存力
   - 位置エネルギー
   - 力学的エネルギー保存則
-- 第10週: [第5章 前半: 安定点まわりの運動と減衰・強制振動](oscillation-and-wave.html#week10)
+  - 演習問題: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
+- 第9週: [第5章 前半: 安定点まわりの運動と減衰・強制振動](oscillation-and-wave.html#week9)
   - 安定点まわりの運動
   - 減衰振動と強制振動
   - 共鳴
-- 第11週: [第5章 後半: 連成振動と $n$ 次元系の振動・波動](oscillation-and-wave.html#week11)
+- 第10週: [第5章 後半: 連成振動と $n$ 次元系の振動・波動](oscillation-and-wave.html#week10)
   - 連成振動と固有モード
   - 行列の対角化
   - $n$ 次元系の振動・波動
   - ダランベールの解
-- 第12週: [第6章 前半: ケプラーの法則と中心力](central-force.html#week12)
+- 第11週: [第6章 前半: ケプラーの法則と中心力](central-force.html#week11)
   - ケプラーの法則
   - 角運動量保存則と平面運動
   - ケプラーの法則から $F(r) \propto -1/r^2$ への導出
   - $F(r) \propto -1/r^2$ から惑星の運動
-- 第13週: [第6章 後半: 重力ポテンシャルと軌道の分類](central-force.html#week13)
+- 第12週: [第6章 後半: 重力ポテンシャルと軌道の分類](central-force.html#week12)
   - 重力の位置エネルギーと力学的エネルギー
   - 有限な大きさの物体の重力ポテンシャル
   - 斥力と離心率ベクトル
   - 放物極限
-- 第14週: [第7章: 座標変換と非慣性系](coordinate-transformations.html#week14)
+- 第13週: [第7章: 座標変換と非慣性系](coordinate-transformations.html#week13)
   - ガリレイ変換
   - 重心系
   - 回転系
   - 遠心力
   - コリオリ力
-- 第15週: [第8章: 質点系と剛体](many-particle-and-rigid-body.html#week15)
+- 第14週: [第8章: 質点系と剛体](many-particle-and-rigid-body.html#week14)
   - 重心運動
   - 慣性モーメント
   - 平行軸の定理
   - 歳差運動
+- 第15週: 予備日, これまでのまとめ
+  - 進度調整
+  - 重要事項の復習
+  - 質問・補足
