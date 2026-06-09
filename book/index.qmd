@@ -76,7 +76,6 @@ title: "はじめに"
   - 保存力
   - 位置エネルギー
   - 力学的エネルギー保存則
-  - 演習問題: [HTML](week9-exercises.html) · [PDF](pdf/week9-exercises.pdf)
 - 第10週: [第5章 前半: 安定点まわりの運動と減衰・強制振動](oscillation-and-wave.html#week10)
   - 安定点まわりの運動
   - 減衰振動と強制振動

@@ -32,11 +32,11 @@ jobs:
           set -e
           test -f book/dist/pdf/enrollment-notice.pdf || { echo "missing: book/dist/pdf/enrollment-notice.pdf"; exit 1; }
           test -f book/dist/pdf/enrollment-notice-midterm.pdf || { echo "missing: book/dist/pdf/enrollment-notice-midterm.pdf"; exit 1; }
-          for n in 1 2 3 4 5 6 7 8 9; do
+          for n in 1 2 3 4 5 6 7 8; do
             f="book/dist/pdf/week${n}-exercises.pdf"
             test -f "$f" || { echo "missing: $f"; exit 1; }
           done
-          echo "OK: enrollment notice PDFs and week*-exercises.pdf present under dist/pdf/"
+          echo "OK: enrollment notice PDFs and week1-8-exercises.pdf present under dist/pdf/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
