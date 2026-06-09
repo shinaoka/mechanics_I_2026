@@ -12,7 +12,7 @@ title: "はじめに"
 
 誤植や表記の指摘は, [GitHub の誤植報告用スレッド](https://github.com/shinaoka/mechanics_I_2026/issues/1) にコメントでお願いします. コメントするには GitHub のアカウントを取得する必要がある. 大学のメールアドレスで登録した場合は, education plan としてさまざまなメリットを受けられることがある. ユーザー名は世界中に公開されるので, 変なものを選ばないようにしてほしい.
 
-力学 I と物理学演習ⅠAの受講に関する注意（履修の勧め, 輪講, 講義の進め方など）は [PDF スライド](pdf/enrollment-notice.pdf) にまとめてある.
+力学 I と物理学演習ⅠAの受講に関する注意（履修の勧め, 輪講, 講義の進め方など）は [初回の PDF スライド](pdf/enrollment-notice.pdf) と [後半に向けた PDF スライド](pdf/enrollment-notice-midterm.pdf) にまとめてある.
 
 左側のサイドバーから各章へ進む.
 
@@ -76,6 +76,7 @@ title: "はじめに"
   - 保存力
   - 位置エネルギー
   - 力学的エネルギー保存則
+  - 演習問題: [HTML](week9-exercises.html) · [PDF](pdf/week9-exercises.pdf)
 - 第10週: [第5章 前半: 安定点まわりの運動と減衰・強制振動](oscillation-and-wave.html#week10)
   - 安定点まわりの運動
   - 減衰振動と強制振動
