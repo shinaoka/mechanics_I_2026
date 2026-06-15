@@ -24,62 +24,51 @@ title: "はじめに"
 
 - 第1週
   - 試験: なし.
-  - 演習: [第1章 前半: 位置と変化の記述](#topic-week1)
+  - 演習: [第1章 前半: 位置と変化の記述](#topic-week1) [事前に予習してくること]（[HTML](week1-exercises.html) · [PDF](pdf/week1-exercises.pdf)）
 - 第2週
   - 試験: [第1章 前半: 位置と変化の記述](#topic-week1) [事前に復習してくること]
-  - 演習: [第1章 後半: 座標系と媒介変数表示](#topic-week2)
+  - 演習: [第1章 後半: 座標系と媒介変数表示](#topic-week2) [事前に予習してくること]（[HTML](week2-exercises.html) · [PDF](pdf/week2-exercises.pdf)）
 - 第3週
   - 試験: [第1章 後半: 座標系と媒介変数表示](#topic-week2) [事前に復習してくること]
-  - 演習: [第2章 前半: 速度と加速度](#topic-week3)
+  - 演習: [第2章 前半: 速度と加速度](#topic-week3) [事前に予習してくること]（[HTML](week3-exercises.html) · [PDF](pdf/week3-exercises.pdf)）
 - 第4週
   - 試験: [第2章 前半: 速度と加速度](#topic-week3) [事前に復習してくること]
-  - 演習: [第2章 後半: 積分と次元解析](#topic-week4)
+  - 演習: [第2章 後半: 積分と次元解析](#topic-week4) [事前に予習してくること]（[HTML](week4-exercises.html) · [PDF](pdf/week4-exercises.pdf)）
 - 第5週
   - 試験: [第2章 後半: 積分と次元解析](#topic-week4) [事前に復習してくること]
-  - 演習: [第3章 前半: 運動の3法則と運動量](#topic-week5)
+  - 演習: [第3章 前半: 運動の3法則と運動量](#topic-week5) [事前に予習してくること]（[HTML](week5-exercises.html) · [PDF](pdf/week5-exercises.pdf)）
 - 第6週
   - 試験: [第3章 前半: 運動の3法則と運動量](#topic-week5) [事前に復習してくること]
-  - 演習: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6)
+  - 演習: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6) [事前に予習してくること]（[HTML](week6-exercises.html) · [PDF](pdf/week6-exercises.pdf)）
 - 第7週
   - 試験: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6) [事前に復習してくること]
-  - 演習: [第4章 前半: 1 次元運動](#topic-week7)
+  - 演習: [第4章 前半: 1 次元運動](#topic-week7) [事前に予習してくること]（[HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)）
 - 第8週
   - 試験: [第4章 前半: 1 次元運動](#topic-week7) [事前に復習してくること]
-  - 演習: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8)
+  - 演習: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8) [事前に予習してくること]（[HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)）
 - 第9週
   - 試験: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8) [事前に復習してくること]
-  - 演習: [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](#topic-week9)
+  - 演習: [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](#topic-week9) [事前に予習してくること]
 - 第10週: 復習回
   - 試験: [第5章](#topic-week9) を中心に, [第1章から第5章まで](#review-week10) [事前に復習してくること]
   - 演習: [第1章から第5章までの既習範囲の復習](#review-week10)
   - 注意: 試験は前週の演習問題の範囲を主にするが, これまでの既習範囲すべてから出題する. 第5章だけでなく, 既習範囲全体を復習してくること.
 - 第11週
   - 試験: [第1章から第5章までの復習](#review-week10) [事前に復習してくること]
-  - 演習: [第6章 前半: ケプラーの法則と中心力](#topic-week11)
+  - 演習: [第6章 前半: ケプラーの法則と中心力](#topic-week11) [事前に予習してくること]
 - 第12週
   - 試験: [第6章 前半: ケプラーの法則と中心力](#topic-week11) [事前に復習してくること]
-  - 演習: [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12)
+  - 演習: [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12) [事前に予習してくること]
 - 第13週
   - 試験: [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12) [事前に復習してくること]
-  - 演習: [第7章: 座標変換と非慣性系](#topic-week13)
+  - 演習: [第7章: 座標変換と非慣性系](#topic-week13) [事前に予習してくること]
 - 第14週
   - 試験: [第7章: 座標変換と非慣性系](#topic-week13) [事前に復習してくること]
-  - 演習: [第8章: 質点系と剛体](#topic-week14)
+  - 演習: [第8章: 質点系と剛体](#topic-week14) [事前に予習してくること]
 - 第15週: 復習回
   - 試験: [第8章](#topic-week14) を中心に, [これまでに扱った内容すべて](#review-week15) [事前に復習してくること]
   - 演習: [既習範囲すべての復習](#review-week15)
   - 注意: 試験は前週の演習問題の範囲を主にするが, これまでの既習範囲すべてから出題する. 第8章だけでなく, 既習範囲全体を復習してくること.
-
-# 演習問題リンク
-
-- 第1週: [HTML](week1-exercises.html) · [PDF](pdf/week1-exercises.pdf)
-- 第2週: [HTML](week2-exercises.html) · [PDF](pdf/week2-exercises.pdf)
-- 第3週: [HTML](week3-exercises.html) · [PDF](pdf/week3-exercises.pdf)
-- 第4週: [HTML](week4-exercises.html) · [PDF](pdf/week4-exercises.pdf)
-- 第5週: [HTML](week5-exercises.html) · [PDF](pdf/week5-exercises.pdf)
-- 第6週: [HTML](week6-exercises.html) · [PDF](pdf/week6-exercises.pdf)
-- 第7週: [HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)
-- 第8週: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
 
 # 講義内容一覧 {#lecture-topics}
 
