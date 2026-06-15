@@ -18,97 +18,219 @@ title: "はじめに"
 
 [教科書の目次](textbook-toc.html)（佐藤『物理学の考え方を理解する 力学』の章立て, 参照用）
 
-# 各週の内容
+# 各週の予定
 
-- 第1週: [第1章 前半: 位置と変化の記述](position-time.html#week1)
-  - ベクトルと位置
-  - 内積
-  - 偏微分
-  - 全微分
-  - 基底ベクトル
-  - 勾配と内積
-  - 演習問題: [HTML](week1-exercises.html) · [PDF](pdf/week1-exercises.pdf)
-- 第2週: [第1章 後半: 座標系と媒介変数表示](position-time.html#week2)
-  - 座標とは何か
-  - デカルト座標
-  - 2 次元極座標
-  - 3 次元球座標
-  - 媒介変数表示と変化
-  - 演習問題: [HTML](week2-exercises.html) · [PDF](pdf/week2-exercises.pdf)
-- 第3週: [第2章 前半: 速度と加速度](velocity-acceleration.html#week3)
-  - 速度
-  - 加速度
-  - デカルト座標と極座標での記述
-  - 演習問題: [HTML](week3-exercises.html) · [PDF](pdf/week3-exercises.pdf)
-- 第4週: [第2章 後半: 積分と次元解析](velocity-acceleration.html#week4)
-  - 速度・加速度の積分
-  - 線積分・面積分・体積分
-  - 次元解析
-  - 演習問題: [HTML](week4-exercises.html) · [PDF](pdf/week4-exercises.pdf)
-- 第5週: [第3章 前半: 運動の3法則と運動量](laws-and-concepts.html#week5)
-  - 運動の3法則
-  - 慣性系
-  - 質量と力
-  - 運動量
-  - 運動量保存則
-  - 演習問題: [HTML](week5-exercises.html) · [PDF](pdf/week5-exercises.pdf)
-- 第6週: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](laws-and-concepts.html#week6)
-  - 角運動量
-  - 力のモーメント
-  - 力積
-  - 運動エネルギー
-  - 仕事
-  - 演習問題: [HTML](week6-exercises.html) · [PDF](pdf/week6-exercises.pdf)
-- 第7週: [第4章 前半: 1 次元運動](equations-of-motion.html#week7)
-  - 運動方程式の立て方
-  - 等加速度運動
-  - 単振動
-  - 位置エネルギーの導入
-  - 演習問題: [HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)
-- 第8週: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](equations-of-motion.html#week8)
-  - 抵抗力
-  - 終端速度
-  - 成分分解
-  - 2 次元での運動方程式
-  - 線積分
-  - 保存力
-  - 位置エネルギー
-  - 力学的エネルギー保存則
-  - 演習問題: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
-- 第9週: [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](oscillation-and-wave.html#week9)
-  - 安定点まわりの運動
-  - 減衰振動と強制振動
-  - 共鳴
-  - 連成振動と固有モード
-  - 行列の対角化
-  - $n$ 次元系の振動・波動
-  - ダランベールの解
-- 第10週: 復習回（既習内容すべて）
-  - 試験
-  - 演習
-  - 範囲: 第1章から第5章まで
-- 第11週: [第6章 前半: ケプラーの法則と中心力](central-force.html#week11)
-  - ケプラーの法則
-  - 角運動量保存則と平面運動
-  - ケプラーの法則から $F(r) \propto -1/r^2$ への導出
-  - $F(r) \propto -1/r^2$ から惑星の運動
-- 第12週: [第6章 後半: 重力ポテンシャルと軌道の分類](central-force.html#week12)
-  - 重力の位置エネルギーと力学的エネルギー
-  - 有限な大きさの物体の重力ポテンシャル
-  - 斥力と離心率ベクトル
-  - 放物極限
-- 第13週: [第7章: 座標変換と非慣性系](coordinate-transformations.html#week13)
-  - ガリレイ変換
-  - 重心系
-  - 回転系
-  - 遠心力
-  - コリオリ力
-- 第14週: [第8章: 質点系と剛体](many-particle-and-rigid-body.html#week14)
-  - 重心運動
-  - 慣性モーメント
-  - 平行軸の定理
-  - 歳差運動
-- 第15週: 復習回（既習内容すべて）
-  - 試験
-  - 演習
-  - 範囲: これまでに扱った内容すべて
+各週の試験は, 前週の演習問題の範囲を主に出題する. ただし, これまでの既習範囲すべてから出題することがあるので, 前週の内容だけでなく既習範囲全体を復習してくること.
+
+- 第1週
+  - 試験: なし.
+  - 演習: [第1章 前半: 位置と変化の記述](#topic-week1)
+- 第2週
+  - 試験: [第1章 前半: 位置と変化の記述](#topic-week1) [事前に復習してくること]
+  - 演習: [第1章 後半: 座標系と媒介変数表示](#topic-week2)
+- 第3週
+  - 試験: [第1章 後半: 座標系と媒介変数表示](#topic-week2) [事前に復習してくること]
+  - 演習: [第2章 前半: 速度と加速度](#topic-week3)
+- 第4週
+  - 試験: [第2章 前半: 速度と加速度](#topic-week3) [事前に復習してくること]
+  - 演習: [第2章 後半: 積分と次元解析](#topic-week4)
+- 第5週
+  - 試験: [第2章 後半: 積分と次元解析](#topic-week4) [事前に復習してくること]
+  - 演習: [第3章 前半: 運動の3法則と運動量](#topic-week5)
+- 第6週
+  - 試験: [第3章 前半: 運動の3法則と運動量](#topic-week5) [事前に復習してくること]
+  - 演習: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6)
+- 第7週
+  - 試験: [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6) [事前に復習してくること]
+  - 演習: [第4章 前半: 1 次元運動](#topic-week7)
+- 第8週
+  - 試験: [第4章 前半: 1 次元運動](#topic-week7) [事前に復習してくること]
+  - 演習: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8)
+- 第9週
+  - 試験: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8) [事前に復習してくること]
+  - 演習: [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](#topic-week9)
+- 第10週: 復習回
+  - 試験: [第5章](#topic-week9) を中心に, [第1章から第5章まで](#review-week10) [事前に復習してくること]
+  - 演習: [第1章から第5章までの既習範囲の復習](#review-week10)
+  - 注意: 試験は前週の演習問題の範囲を主にするが, これまでの既習範囲すべてから出題する. 第5章だけでなく, 既習範囲全体を復習してくること.
+- 第11週
+  - 試験: [第1章から第5章までの復習](#review-week10) [事前に復習してくること]
+  - 演習: [第6章 前半: ケプラーの法則と中心力](#topic-week11)
+- 第12週
+  - 試験: [第6章 前半: ケプラーの法則と中心力](#topic-week11) [事前に復習してくること]
+  - 演習: [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12)
+- 第13週
+  - 試験: [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12) [事前に復習してくること]
+  - 演習: [第7章: 座標変換と非慣性系](#topic-week13)
+- 第14週
+  - 試験: [第7章: 座標変換と非慣性系](#topic-week13) [事前に復習してくること]
+  - 演習: [第8章: 質点系と剛体](#topic-week14)
+- 第15週: 復習回
+  - 試験: [第8章](#topic-week14) を中心に, [これまでに扱った内容すべて](#review-week15) [事前に復習してくること]
+  - 演習: [既習範囲すべての復習](#review-week15)
+  - 注意: 試験は前週の演習問題の範囲を主にするが, これまでの既習範囲すべてから出題する. 第8章だけでなく, 既習範囲全体を復習してくること.
+
+# 演習問題リンク
+
+- 第1週: [HTML](week1-exercises.html) · [PDF](pdf/week1-exercises.pdf)
+- 第2週: [HTML](week2-exercises.html) · [PDF](pdf/week2-exercises.pdf)
+- 第3週: [HTML](week3-exercises.html) · [PDF](pdf/week3-exercises.pdf)
+- 第4週: [HTML](week4-exercises.html) · [PDF](pdf/week4-exercises.pdf)
+- 第5週: [HTML](week5-exercises.html) · [PDF](pdf/week5-exercises.pdf)
+- 第6週: [HTML](week6-exercises.html) · [PDF](pdf/week6-exercises.pdf)
+- 第7週: [HTML](week7-exercises.html) · [PDF](pdf/week7-exercises.pdf)
+- 第8週: [HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)
+
+# 講義内容一覧 {#lecture-topics}
+
+## 第1章 前半: 位置と変化の記述 {#topic-week1}
+
+[講義ノート](position-time.html#week1)
+
+- ベクトルと位置
+- 内積
+- 偏微分
+- 全微分
+- 基底ベクトル
+- 勾配と内積
+
+## 第1章 後半: 座標系と媒介変数表示 {#topic-week2}
+
+[講義ノート](position-time.html#week2)
+
+- 座標とは何か
+- デカルト座標
+- 2 次元極座標
+- 3 次元球座標
+- 媒介変数表示と変化
+
+## 第2章 前半: 速度と加速度 {#topic-week3}
+
+[講義ノート](velocity-acceleration.html#week3)
+
+- 速度
+- 加速度
+- デカルト座標と極座標での記述
+
+## 第2章 後半: 積分と次元解析 {#topic-week4}
+
+[講義ノート](velocity-acceleration.html#week4)
+
+- 速度・加速度の積分
+- 線積分・面積分・体積分
+- 次元解析
+
+## 第3章 前半: 運動の3法則と運動量 {#topic-week5}
+
+[講義ノート](laws-and-concepts.html#week5)
+
+- 運動の3法則
+- 慣性系
+- 質量と力
+- 運動量
+- 運動量保存則
+
+## 第3章 後半: 角運動量, 力積, 仕事とエネルギー {#topic-week6}
+
+[講義ノート](laws-and-concepts.html#week6)
+
+- 角運動量
+- 力のモーメント
+- 力積
+- 運動エネルギー
+- 仕事
+
+## 第4章 前半: 1 次元運動 {#topic-week7}
+
+[講義ノート](equations-of-motion.html#week7)
+
+- 運動方程式の立て方
+- 等加速度運動
+- 単振動
+- 位置エネルギーの導入
+
+## 第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー {#topic-week8}
+
+[講義ノート](equations-of-motion.html#week8)
+
+- 抵抗力
+- 終端速度
+- 成分分解
+- 2 次元での運動方程式
+- 線積分
+- 保存力
+- 位置エネルギー
+- 力学的エネルギー保存則
+
+## 第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動 {#topic-week9}
+
+[講義ノート](oscillation-and-wave.html#week9)
+
+- 安定点まわりの運動
+- 減衰振動と強制振動
+- 共鳴
+- 連成振動と固有モード
+- 行列の対角化
+- $n$ 次元系の振動・波動
+- ダランベールの解
+
+## 第10週の復習範囲 {#review-week10}
+
+第1章から第5章までの既習範囲を復習する.
+
+- [第1章 前半: 位置と変化の記述](#topic-week1)
+- [第1章 後半: 座標系と媒介変数表示](#topic-week2)
+- [第2章 前半: 速度と加速度](#topic-week3)
+- [第2章 後半: 積分と次元解析](#topic-week4)
+- [第3章 前半: 運動の3法則と運動量](#topic-week5)
+- [第3章 後半: 角運動量, 力積, 仕事とエネルギー](#topic-week6)
+- [第4章 前半: 1 次元運動](#topic-week7)
+- [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8)
+- [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](#topic-week9)
+
+## 第6章 前半: ケプラーの法則と中心力 {#topic-week11}
+
+[講義ノート](central-force.html#week11)
+
+- ケプラーの法則
+- 角運動量保存則と平面運動
+- ケプラーの法則から $F(r) \propto -1/r^2$ への導出
+- $F(r) \propto -1/r^2$ から惑星の運動
+
+## 第6章 後半: 重力ポテンシャルと軌道の分類 {#topic-week12}
+
+[講義ノート](central-force.html#week12)
+
+- 重力の位置エネルギーと力学的エネルギー
+- 有限な大きさの物体の重力ポテンシャル
+- 斥力と離心率ベクトル
+- 放物極限
+
+## 第7章: 座標変換と非慣性系 {#topic-week13}
+
+[講義ノート](coordinate-transformations.html#week13)
+
+- ガリレイ変換
+- 重心系
+- 回転系
+- 遠心力
+- コリオリ力
+
+## 第8章: 質点系と剛体 {#topic-week14}
+
+[講義ノート](many-particle-and-rigid-body.html#week14)
+
+- 重心運動
+- 慣性モーメント
+- 平行軸の定理
+- 歳差運動
+
+## 第15週の復習範囲 {#review-week15}
+
+これまでに扱った内容すべてを復習する.
+
+- [第1章から第5章まで](#review-week10)
+- [第6章 前半: ケプラーの法則と中心力](#topic-week11)
+- [第6章 後半: 重力ポテンシャルと軌道の分類](#topic-week12)
+- [第7章: 座標変換と非慣性系](#topic-week13)
+- [第8章: 質点系と剛体](#topic-week14)
