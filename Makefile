@@ -1,6 +1,6 @@
 BOOK_DIR := book
 
-.PHONY: build serve clean enrollment-pdf exercises-pdf exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 exercises-pdf-w7 exercises-pdf-w8 preview-pdf preview-pdf-folder
+.PHONY: build serve clean enrollment-pdf exercises-pdf exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 exercises-pdf-w7 exercises-pdf-w8 exercises-pdf-w9 preview-pdf preview-pdf-folder
 
 # 演習 PDF をプレビュー（macOS の既定アプリ, 通常は Preview）. 例: make preview-pdf WEEK=3
 WEEK ?= 1
@@ -23,7 +23,7 @@ serve:
 	cd $(BOOK_DIR) && quarto preview
 
 # 演習問題を週ごとの PDF にし, book/pdf/weekN-exercises.pdf に置く
-exercises-pdf: exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 exercises-pdf-w7 exercises-pdf-w8
+exercises-pdf: exercises-pdf-w1 exercises-pdf-w2 exercises-pdf-w3 exercises-pdf-w4 exercises-pdf-w5 exercises-pdf-w6 exercises-pdf-w7 exercises-pdf-w8 exercises-pdf-w9
 
 # 隔離サブプロジェクト（book/pdf-weekly/wN）で ltjsarticle により週だけを PDF 化
 exercises-pdf-w1:
@@ -65,6 +65,11 @@ exercises-pdf-w8:
 	mkdir -p $(BOOK_DIR)/pdf
 	cd $(BOOK_DIR)/pdf-weekly/w8 && quarto render build.qmd --to pdf
 	cp $(BOOK_DIR)/pdf-weekly/w8/build.pdf $(BOOK_DIR)/pdf/week8-exercises.pdf
+
+exercises-pdf-w9:
+	mkdir -p $(BOOK_DIR)/pdf
+	cd $(BOOK_DIR)/pdf-weekly/w9 && quarto render build.qmd --to pdf
+	cp $(BOOK_DIR)/pdf-weekly/w9/build.pdf $(BOOK_DIR)/pdf/week9-exercises.pdf
 
 clean:
 	rm -rf $(BOOK_DIR)/dist $(BOOK_DIR)/dist-exercises-pdf $(BOOK_DIR)/dist-weekly-pdf-tmp
