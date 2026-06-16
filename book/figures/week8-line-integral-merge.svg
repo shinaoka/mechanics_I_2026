@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="2つの長方形が1辺を共有し, 共有辺の寄与が打ち消されて大きな長方形になる">
+  <defs>
+    <marker id="arrow-blue" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-black" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#111827"/>
+    </marker>
+    <style>
+      .curve { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif; font-size: 28px; fill: #111827; }
+      .small { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif; font-size: 23px; fill: #374151; }
+    </style>
+  </defs>
+
+  <text x="230" y="45" text-anchor="middle" class="label">1辺を共有する2つの閉曲線</text>
+  <text x="675" y="45" text-anchor="middle" class="label">融合した閉曲線</text>
+
+  <path class="curve" d="M224 96 L104 96 L104 324 L224 324 L224 100" stroke="#2563eb" stroke-width="4.5" marker-end="url(#arrow-blue)"/>
+  <path class="curve" d="M236 96 L356 96 L356 324 L236 324" stroke="#16a34a" stroke-width="4.5"/>
+  <path class="curve" d="M236 96 L236 320" stroke="#16a34a" stroke-width="4.5" marker-end="url(#arrow-green)"/>
+
+  <text x="150" y="215" text-anchor="middle" class="label">C1</text>
+  <text x="310" y="215" text-anchor="middle" class="label">C2</text>
+  <text x="230" y="382" text-anchor="middle" class="small">共有辺は逆向きなので打ち消す</text>
+
+  <text x="455" y="222" text-anchor="middle" class="label">=</text>
+
+  <path class="curve" d="M560 96 L560 324 L790 324 L790 96 L565 96" stroke="#111827" stroke-width="4.5" marker-end="url(#arrow-black)"/>
+  <text x="675" y="382" text-anchor="middle" class="small">別の1つの閉曲線として残る</text>
+</svg>

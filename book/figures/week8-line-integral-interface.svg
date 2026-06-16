@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-label="不連続線を横切る長方形の閉曲線と, 同じ上下辺で不連続線の両側に張り付いた閉曲線">
+  <defs>
+    <marker id="arrow-gray" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#f97316"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-black" markerWidth="18" markerHeight="13.5" refX="16.5" refY="6.75" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L18,6.75 L0,13.5 Z" fill="#111827"/>
+    </marker>
+    <style>
+      .curve { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif; font-size: 29px; fill: #111827; }
+      .small { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif; font-size: 23px; fill: #374151; }
+      .tiny { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif; font-size: 20px; fill: #374151; }
+    </style>
+  </defs>
+
+  <text x="450" y="42" text-anchor="middle" class="label">同じ上下辺で, 両側に張り付ける</text>
+
+  <line x1="450" y1="70" x2="450" y2="372" stroke="#2563eb" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="468" y="96" class="label">Γ</text>
+
+  <text x="240" y="86" text-anchor="middle" class="small">- 側: rot F = 0</text>
+  <text x="660" y="86" text-anchor="middle" class="small">+ 側: rot F = 0</text>
+
+  <path class="curve" d="M450 130 L235 130 L235 300 L450 300 L665 300 L665 130 L450 130" stroke="#6b7280" stroke-width="3" stroke-dasharray="11 9" marker-end="url(#arrow-gray)"/>
+  <text x="690" y="224" class="small">もとの閉曲線</text>
+
+  <path class="curve" d="M426 130 L426 300" stroke="#f97316" stroke-width="4.5" marker-end="url(#arrow-orange)"/>
+  <path class="curve" d="M474 300 L474 130" stroke="#dc2626" stroke-width="4.5" marker-end="url(#arrow-red)"/>
+  <path class="curve" d="M426 130 L474 130" stroke="#111827" stroke-width="2.8"/>
+  <path class="curve" d="M474 300 L426 300" stroke="#111827" stroke-width="2.8"/>
+
+  <circle cx="450" cy="130" r="4" fill="#111827"/>
+  <circle cx="450" cy="300" r="4" fill="#111827"/>
+  <text x="450" y="398" text-anchor="middle" class="tiny">横切る短い区間は幅が無限小なので寄与 0</text>
+
+  <circle cx="450" cy="215" r="4" fill="#111827"/>
+  <path d="M450 215 L450 164" stroke="#111827" stroke-width="3" marker-end="url(#arrow-black)"/>
+  <text x="462" y="170" class="label">t</text>
+  <path d="M450 215 L510 215" stroke="#111827" stroke-width="3" marker-end="url(#arrow-black)"/>
+  <text x="515" y="224" class="label">n</text>
+</svg>
