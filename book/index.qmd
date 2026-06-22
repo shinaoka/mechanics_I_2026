@@ -48,12 +48,13 @@ title: "はじめに"
 - 第8週
   - 試験: [第4章 前半: 1 次元運動](#topic-week7) [事前に復習してくること]
   - 演習: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8) [教科書の該当範囲を事前に読んでくること]（[HTML](week8-exercises.html) · [PDF](pdf/week8-exercises.pdf)）
+  - 補足: [第8週補足: 線積分と不連続な力場](pdf/week8-line-integral-explanation.pdf)
 - 第9週
   - 試験: [第4章: 抵抗力, 2 次元運動, 仕事と位置エネルギー](#topic-week8) [事前に復習してくること]
   - 演習: [第5章: 安定点まわりの運動, 減衰・強制振動, 連成振動と波動](#topic-week9) [教科書の該当範囲を事前に読んでくること]（[HTML](week9-exercises.html) · [PDF](pdf/week9-exercises.pdf)）
 - 第10週: 復習回
   - 試験: [第5章](#topic-week9) を中心に, [第1章から第5章まで](#review-week10) [事前に復習してくること]
-  - 演習: [第1章から第5章までの既習範囲の復習](#review-week10)
+  - 演習: [第1章から第5章までの既習範囲の復習](#review-week10)（[HTML](week10-exercises.html) · [PDF](pdf/week10-exercises.pdf)）
   - 注意: 試験は前週の演習問題の範囲を主にするが, これまでの既習範囲すべてから出題する. 第5章だけでなく, 既習範囲全体を復習してくること.
 - 第11週
   - 試験: [第1章から第5章までの復習](#review-week10) [事前に復習してくること]
