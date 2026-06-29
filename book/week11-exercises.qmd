@@ -1,0 +1,172 @@
+---
+title: "第11週の演習問題"
+---
+
+このページには, 第11週の講義内容に対応する演習問題をまとめる. 今週は教科書第6章前半 (6.1–6.4 節), すなわち中心力, 角運動量保存と平面運動, ケプラーの法則と $F(r)\propto -1/r^2$ の往復関係, および 2 体問題を扱う. 各問は教科書の該当範囲を読んで, その導出を自分の手で再現し, 最後に応用するという構成になっている. 予習として教科書 6.1–6.4 節を読んでくること.
+
+::: {.content-visible when-format="html"}
+同じ内容の [PDF](pdf/week11-exercises.pdf) もある.
+:::
+
+## 問題1 {.unnumbered}
+
+中心力のもとでの運動を考える. 質量 $m$ の質点に, 力の中心 (原点) からの距離だけで大きさが決まる中心力
+
+$$
+\mathbf{F}=F(r)\,\mathbf{e}_r
+$$
+
+が働く. 以下は教科書 6.2 節の議論の再構成である.
+
+1. 角運動量を $\mathbf{L}=\mathbf{r}\times m\mathbf{v}$ とする. $\dfrac{d\mathbf{L}}{dt}=\mathbf{r}\times\mathbf{F}$ を示し, 中心力のもとでは $\mathbf{L}$ が保存することを説明せよ.
+
+2. $\mathbf{L}$ が一定ベクトルであることと $\mathbf{r}\cdot\mathbf{L}=0$ から, 運動が $\mathbf{L}$ に垂直な 1 つの平面内に限られることを説明せよ.
+
+3. その平面を $xy$ 平面にとり, 2 次元極座標 $(r,\varphi)$ を用いる. 速度が
+
+$$
+\mathbf{v}=\dot r\,\mathbf{e}_r+r\dot\varphi\,\mathbf{e}_\varphi
+$$
+
+であることを用いて, 加速度の $\mathbf{e}_r$ 成分と $\mathbf{e}_\varphi$ 成分を書き, 運動方程式が
+
+$$
+\ddot r-r\dot\varphi^2=\frac{F(r)}{m},\qquad
+\frac{d}{dt}\!\left(r^2\dot\varphi\right)=0
+$$
+
+となることを示せ.
+
+4. 後者の式から面積速度 $\dfrac12 r^2\dot\varphi$ が一定 (ケプラーの第2法則) であることを示せ. さらに $h\equiv r^2\dot\varphi$ とおき, 動径方向の運動方程式が
+
+$$
+\ddot r-\frac{h^2}{r^3}=\frac{F(r)}{m}
+$$
+
+と $r$ だけの微分方程式に書けることを示せ.
+
+5. ある彗星が太陽のまわりを運動し, 近日点 (太陽に最も近い点) では距離 $r_{\mathrm p}$, 速さ $v_{\mathrm p}$ であった. 近日点と遠日点では速度が動径に垂直であることに注意して, 遠日点 (距離 $r_{\mathrm a}$) での速さ $v_{\mathrm a}$ を $r_{\mathrm p},v_{\mathrm p},r_{\mathrm a}$ で表せ.
+
+## 問題2 {.unnumbered}
+
+ケプラーの第1法則・第2法則から, 太陽と惑星の間に働く力が距離の 2 乗に反比例することを導く (教科書 6.3 節). 惑星の軌道は, 力の中心 (太陽) を原点とする 2 次元極座標で
+
+$$
+r=\frac{\ell}{1+\varepsilon\cos\varphi}\qquad(0\le\varepsilon<1)
+$$
+
+と書ける楕円であるとする (第1法則).
+
+1. 近日点 ($\varphi=0$) と遠日点 ($\varphi=\pi$) での $r$ を求めよ. これらから長半径 $a=\dfrac{r_{\min}+r_{\max}}{2}$ を計算し, $\ell=a(1-\varepsilon^2)$ となることを示せ.
+
+2. 離心率 $\varepsilon=\tfrac12$, 長半径 $a=2$ (適当な単位) の楕円について, $\ell$, 近日点距離, 遠日点距離, 短半径 $b=a\sqrt{1-\varepsilon^2}$, 焦点距離 $c=a\varepsilon$ を求めよ.
+
+3. 面積速度一定 (第2法則) より $h=r^2\dot\varphi$ は一定である. 軌道の式 $\dfrac{\ell}{r}=1+\varepsilon\cos\varphi$ の両辺を時間で微分し, $h=r^2\dot\varphi$ を用いて $\dot r$ を求めよ. さらにもう一度微分して $\ddot r$ を求め, 問題1の動径方程式
+
+$$
+\ddot r-\frac{h^2}{r^3}=\frac{F(r)}{m}
+$$
+
+に代入することで, 力が
+
+$$
+F(r)=-\frac{m h^2}{\ell}\,\frac{1}{r^2}
+$$
+
+と距離の 2 乗に反比例する引力であることを示せ.
+
+## 問題3 {.unnumbered}
+
+ケプラーの第3法則「周期 $T$ の 2 乗は長半径 $a$ の 3 乗に比例する」を, 2 通りの方法で確かめる. 万有引力の大きさを $F(r)=G\dfrac{mM}{r^2}$ とする.
+
+**(A) 教科書の方法 (6.3.2 項の再現)**
+
+1. 楕円の面積は $\pi a b$ である. 面積速度が $\dfrac{h}{2}$ で一定であることから, 周期が
+
+$$
+T=\frac{\pi a b}{h/2}=\frac{2\pi a b}{h}
+$$
+
+と書けることを説明せよ.
+
+2. 問題2の力と万有引力を比べると $\dfrac{h^2}{\ell}=GM$ である. これと $\ell=a(1-\varepsilon^2)$, $b=a\sqrt{1-\varepsilon^2}$ を用いて
+
+$$
+\frac{T^2}{a^3}=\frac{4\pi^2}{GM}=\text{一定}
+$$
+
+を導け.
+
+**(B) スケーリングによる方法**
+
+惑星 (質量 $m$) が太陽 (質量 $M$, 原点に固定) から受ける運動方程式は
+
+$$
+\frac{d^2\mathbf{r}}{dt^2}=-GM\frac{\mathbf{r}}{r^3}
+$$
+
+である.
+
+3. $\mathbf{r}(t)$ がこの方程式の解であるとする. 正の定数 $\lambda$ を用いて
+
+$$
+\tilde{\mathbf{r}}(t)=\lambda\,\mathbf{r}\!\left(\frac{t}{\lambda^{3/2}}\right)
+$$
+
+とおくと, $\tilde{\mathbf{r}}(t)$ も同じ運動方程式を満たすことを, 代入して確かめよ.
+
+4. 3. の結果は「ある軌道を空間的に $\lambda$ 倍に拡大し, 時間を $\lambda^{3/2}$ 倍に伸ばした運動も, 同じ万有引力のもとで許される」ことを意味する. このとき長半径は $a\to\lambda a$, 周期は $T\to\lambda^{3/2}T$ となることから, $T\propto a^{3/2}$, すなわちケプラーの第3法則が成り立つことを説明せよ.
+
+**(C) 一般の中心力への拡張**
+
+5. 大きさが距離の $n$ 乗に比例する引力的な中心力, すなわち運動方程式
+
+$$
+\frac{d^2\mathbf{r}}{dt^2}=-K\,r^{\,n-1}\,\mathbf{r}\qquad(K>0)
+$$
+
+を考える ($r=|\mathbf{r}|$). (B) と同様に $\tilde{\mathbf{r}}(t)=\lambda\,\mathbf{r}(t/\lambda^{\beta})$ が解になる条件から $\beta$ を求め, 周期と軌道の大きさの関係が
+
+$$
+T\propto a^{(1-n)/2}
+$$
+
+となることを示せ. さらに, $n=1$ (ばねのような力) では周期が振幅によらない (等時性) こと, $n=-2$ (万有引力) では $T\propto a^{3/2}$ となることを確認せよ.
+
+## 問題4 {.unnumbered}
+
+2 体問題を扱い, 逆二乗力から軌道の形を導く (教科書 6.4 節). 質量 $m_1,m_2$ の 2 質点が万有引力で引き合っており, 運動方程式は
+
+$$
+m_1\frac{d^2\mathbf{r}_1}{dt^2}=-G\frac{m_1 m_2}{|\mathbf{r}_1-\mathbf{r}_2|^2}\frac{\mathbf{r}_1-\mathbf{r}_2}{|\mathbf{r}_1-\mathbf{r}_2|},\qquad
+m_2\frac{d^2\mathbf{r}_2}{dt^2}=-G\frac{m_1 m_2}{|\mathbf{r}_1-\mathbf{r}_2|^2}\frac{\mathbf{r}_2-\mathbf{r}_1}{|\mathbf{r}_1-\mathbf{r}_2|}
+$$
+
+である.
+
+1. 2 式を足すことで, 重心 $\mathbf{r}_{\mathrm G}=\dfrac{m_1\mathbf{r}_1+m_2\mathbf{r}_2}{m_1+m_2}$ が等速直線運動することを示せ.
+
+2. 相対座標を $\mathbf{r}=\mathbf{r}_1-\mathbf{r}_2$ とする. 上の 2 式をそれぞれ $m_1,m_2$ で割って差をとることで,
+
+$$
+\mu\frac{d^2\mathbf{r}}{dt^2}=-G\frac{m_1 m_2}{r^2}\frac{\mathbf{r}}{r},\qquad
+\mu=\frac{m_1 m_2}{m_1+m_2}
+$$
+
+を導け. これが原点を力の中心とする中心力の形をもつことを確認せよ. ここで $\mu$ を換算質量という.
+
+3. 太陽 ($m_2=1.99\times10^{30}\,\mathrm{kg}$) と木星 ($m_1=1.90\times10^{27}\,\mathrm{kg}$) について, 換算質量 $\mu$ を求めよ. また両者の距離を $7.78\times10^{8}\,\mathrm{km}$ として, 太陽の中心から重心までの距離を求め, それが太陽半径 ($6.96\times10^{5}\,\mathrm{km}$) と比べてどうかを述べよ.
+
+4. 2. の相対運動を解く. 質点が平面内を動くので 2 次元極座標を用い, 動径方程式 $\ddot r-h^2/r^3=-G M_{\mathrm{tot}}/r^2$ ($M_{\mathrm{tot}}=m_1+m_2$, $h=r^2\dot\varphi$) を考える. $u\equiv\dfrac1r$ とおき, 時間微分を $\varphi$ の微分に直すことで
+
+$$
+\frac{d^2u}{d\varphi^2}+u=\frac{GM_{\mathrm{tot}}}{h^2}
+$$
+
+を導け. これを解いて軌道が
+
+$$
+r=\frac{\ell}{1+\varepsilon\cos\varphi},\qquad \ell=\frac{h^2}{GM_{\mathrm{tot}}}
+$$
+
+と円錐曲線になることを示せ. また, $\cos$ の引数が $\varphi$ そのもの (係数が 1) であることが, 軌道が 1 周して閉じることに対応すると説明せよ.

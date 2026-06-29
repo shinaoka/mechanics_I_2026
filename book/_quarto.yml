@@ -15,6 +15,8 @@ project:
     - pdf/week8-line-integral-explanation.pdf
     - pdf/week9-exercises.pdf
     - pdf/week10-exercises.pdf
+    - pdf/week11-exercises.pdf
+    - pdf/week12-exercises.pdf
   render:
     - index.qmd
     - textbook-toc.qmd
@@ -36,6 +38,8 @@ project:
     - week8-exercises.qmd
     - week9-exercises.qmd
     - week10-exercises.qmd
+    - week11-exercises.qmd
+    - week12-exercises.qmd
 
 book:
   title: "力学 I"
@@ -65,6 +69,10 @@ book:
             href: pdf/week9-exercises.pdf
           - text: "第10週"
             href: pdf/week10-exercises.pdf
+          - text: "第11週"
+            href: pdf/week11-exercises.pdf
+          - text: "第12週"
+            href: pdf/week12-exercises.pdf
   chapters:
     - index.qmd
     - textbook-toc.qmd
@@ -86,6 +94,8 @@ book:
     - week8-exercises.qmd
     - week9-exercises.qmd
     - week10-exercises.qmd
+    - week11-exercises.qmd
+    - week12-exercises.qmd
 
 format:
   html:

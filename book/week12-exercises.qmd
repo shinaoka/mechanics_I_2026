@@ -1,0 +1,164 @@
+---
+title: "第12週の演習問題"
+---
+
+このページには, 第12週の講義内容に対応する演習問題をまとめる. 今週は教科書第6章後半 (6.5–6.8 節), すなわち重力の位置エネルギーと力学的エネルギー, エネルギーによる軌道の分類, 有限な大きさの物体の重力ポテンシャル, 斥力の場合の散乱, 離心率ベクトルを扱う. 各問は教科書の該当範囲を読んで, その導出を再現し, 最後に応用するという構成になっている. 予習として教科書 6.5–6.8 節を読んでくること.
+
+以下では, 力の中心となる天体の質量を $M$, 運動する質点の質量を $m$ とし, $M\gg m$ として力の中心は原点に固定されているとする.
+
+::: {.content-visible when-format="html"}
+同じ内容の [PDF](pdf/week12-exercises.pdf) もある.
+:::
+
+## 問題1 {.unnumbered}
+
+重力の位置エネルギーと力学的エネルギー, および軌道の分類を扱う (教科書 6.5 節).
+
+1. 万有引力 $\mathbf{F}=-G\dfrac{mM}{r^2}\mathbf{e}_r$ について, 位置エネルギー
+
+$$
+U(r)=-G\frac{mM}{r}
+$$
+
+が $\mathbf{F}=-\nabla U$ を満たすことを確認せよ. ただし無限遠を基準 $U(\infty)=0$ にとっている.
+
+2. 力学的エネルギー
+
+$$
+E=\frac{m}{2}v^2-G\frac{mM}{r}
+$$
+
+が保存することを用いる. 位置エネルギーの原点が無限遠にあることに注意して, $E>0$, $E=0$, $E<0$ のそれぞれで軌道が双曲線・放物線・楕円のどれになるかを, 無限遠まで到達できるか否かという観点から説明せよ.
+
+3. 月を考える. 質量 $M=7.35\times10^{22}\,\mathrm{kg}$, 半径 $R=1.74\times10^{6}\,\mathrm{m}$ とする. 月の表面すれすれを円軌道で回るのに必要な速さ (第1宇宙速度) $v_1=\sqrt{GM/R}$ と, 月の重力圏から脱出するのに必要な速さ (第2宇宙速度) $v_2=\sqrt{2GM/R}$ を求めよ. ($G=6.67\times10^{-11}\,\mathrm{N\,m^2\,kg^{-2}}$)
+
+4. 楕円軌道では力学的エネルギーが $E=-\dfrac{GmM}{2a}$ と長半径 $a$ だけで決まることが知られている (これは用いてよい). このこととエネルギー保存から, 距離 $r$ での速さが
+
+$$
+v^2=GM\left(\frac{2}{r}-\frac{1}{a}\right)
+$$
+
+となることを示せ. さらに, 近日点距離 $a(1-\varepsilon)$, 遠日点距離 $a(1+\varepsilon)$ での速さをそれぞれ $a,\varepsilon$ で表せ.
+
+## 問題2 {.unnumbered}
+
+エネルギー保存を動径方向の運動に書き直し, 有効ポテンシャルを使って軌道を分類する (教科書 6.5.3 項).
+
+1. 速さの 2 乗を極座標で $v^2=\dot r^2+r^2\dot\varphi^2$ と書き, 角運動量保存 $h=r^2\dot\varphi$ を用いると, エネルギー保存の式が
+
+$$
+\frac{m}{2}\dot r^2+U_{\mathrm{eff}}(r)=E,\qquad
+U_{\mathrm{eff}}(r)=\frac{mh^2}{2r^2}-G\frac{mM}{r}
+$$
+
+と書けることを示せ. $U_{\mathrm{eff}}$ を有効ポテンシャルという.
+
+2. $U_{\mathrm{eff}}(r)$ の概形を描け. $r\to0$ と $r\to\infty$ での振る舞いを述べ, 極小をとる位置 $r_0$ と, そこでの値 $U_{\mathrm{eff}}(r_0)$ を求めよ.
+
+3. $r_0$ が円軌道の半径であることを説明せよ. (ヒント: 円軌道では $\dot r=0$ かつ $r$ が一定である.)
+
+4. $U_{\mathrm{eff}}(r_0)<E<0$ のとき, $\dot r=0$ となる 2 点 $r_1<r_2$ (近日点・遠日点) の間に運動が拘束されること (束縛状態) を説明せよ. また, $E=U_{\mathrm{eff}}(r_0)$ で円, $U_{\mathrm{eff}}(r_0)<E<0$ で楕円, $E\ge0$ で非束縛 (放物線・双曲線) という対応を, 図と対応させて述べよ.
+
+## 問題3 {.unnumbered}
+
+有限な大きさの物体がつくる重力ポテンシャルを扱う (教科書 6.6 節). 位置 $\mathbf{r}$ にある質量 $m$ の質点が, 密度 $\rho(\mathbf{R})$ の物体から受ける位置エネルギーは
+
+$$
+U(\mathbf{r})=\int_V -G\frac{m\rho(\mathbf{R})}{|\mathbf{r}-\mathbf{R}|}\,dV
+$$
+
+である.
+
+1. 一様な球殻 (半径 $R$, 全質量 $M$) を考え, その中心を原点とする. 球対称性を使い, 質点が中心から距離 $r$ にあるときのポテンシャルを, 余弦定理 $s^2=r^2+R^2-2rR\cos\theta$ で表される距離 $s$ についての積分に直して計算し,
+
+$$
+U(r)=
+\begin{cases}
+-\dfrac{GmM}{r} & (r>R,\ \text{球殻の外})\\[2mm]
+-\dfrac{GmM}{R} & (r<R,\ \text{球殻の内})
+\end{cases}
+$$
+
+となることを示せ. とくに, 球殻の内部では重力が働かないことを述べよ.
+
+2. 次に, 半径 $R$, 全質量 $M$, 一様な密度の中実球を考える. これを薄い球殻の重ね合わせとみなす. 1. の結果を使い, 中実球の内部 ($r<R$) の点にある質量 $m$ の質点が受ける重力が
+
+$$
+F(r)=-G\frac{mM}{R^3}\,r
+$$
+
+(中心向き, 中心からの距離 $r$ に比例) となることを示せ. (ヒント: 半径 $r$ の球面より外側の球殻は内部の点に力を及ぼさないので, 内側の質量だけが効く.)
+
+3. この中実球を惑星とみなし, 中心を通るまっすぐなトンネルを掘る. 質点をトンネルの一端で静かに放したとき, トンネル内の運動が単振動になることを示し, その周期 $T$ を $G,M,R$ で表せ.
+
+4. 3. を地球 ($M=5.97\times10^{24}\,\mathrm{kg}$, $R=6.37\times10^{6}\,\mathrm{m}$) にあてはめ, 周期 $T$ を分単位で求めよ.
+
+## 問題4 {.unnumbered}
+
+中心力が斥力の場合の散乱を扱う (教科書 6.7 節). 力の中心から距離 $r$ にある質量 $m$ の質点に, 斥力
+
+$$
+F(r)=\frac{k}{r^2}\qquad(k>0)
+$$
+
+が働く.
+
+1. この斥力のもとで軌道が
+
+$$
+r=\frac{\ell}{\varepsilon\cos\varphi-1},\qquad
+\ell=\frac{mh^2}{k},\qquad
+\varepsilon^2=1+\frac{2mh^2E}{k^2}
+$$
+
+となること (双曲線), および斥力では必ず $E>0$, $\varepsilon>1$ となることを示せ. (ヒント: 引力の動径方程式で力の項 $-GM/r^2$ は, 斥力では $+k/(mr^2)$ になる. これは運動方程式で $GM\to-k/m$ と置き換えることに相当する. これを $u=1/r$ とおいて解き直せばよい.)
+
+2. 質点が十分遠方から速さ $v_0$, 衝突パラメータ $b$ (漸近線と力の中心の間の距離) で入射するとする. このとき力学的エネルギーが $E=\dfrac12 m v_0^2$, 単位質量あたりの角運動量が $h=v_0 b$ となることを説明せよ.
+
+3. 散乱角を $\Theta$ とする. 双曲線の漸近線の方向 $\Phi=\cos^{-1}(1/\varepsilon)$ と $\Theta=\pi-2\Phi$ の関係, および 1.・2. の結果を用いて,
+
+$$
+\cot\frac{\Theta}{2}=\frac{m v_0^2 b}{k}
+$$
+
+を導け.
+
+4. 引力 (万有引力) の場合も, $k\to GmM$ として散乱角は $\cot\dfrac{\Theta}{2}=\dfrac{v_0^2 b}{GM}$ で与えられる (符号の扱いは教科書 例題6.7 を参照). 質量 $M$ の惑星の近くを速さ $v_0$ で通過する宇宙船を考える. 散乱角がちょうど $90^\circ$ になる衝突パラメータ $b$ を $G,M,v_0$ で表せ. また $b$ を大きくすると $\Theta$ がどうなるかを述べよ.
+
+## 問題5 {.unnumbered}
+
+逆二乗の引力では, 角運動量に加えてもう 1 つの保存ベクトル, 離心率ベクトル (ルンゲ・レンツベクトル) が存在する (教科書 6.8 節). 引力を $\mathbf{F}=-k\dfrac{\mathbf{r}}{r^3}$ ($k=GmM>0$), 角運動量を $\mathbf{L}=\mathbf{r}\times m\mathbf{v}$ とし, 離心率ベクトルを
+
+$$
+\boldsymbol{\varepsilon}=\frac{1}{k}\,\mathbf{v}\times\mathbf{L}-\frac{\mathbf{r}}{r}
+$$
+
+で定義する.
+
+1. 次の 2 つの関係
+
+$$
+\frac{d}{dt}(\mathbf{v}\times\mathbf{L})=-\frac{1}{m}\,k\,\frac{\mathbf{r}}{r^3}\times\mathbf{L},
+\qquad
+\frac{d}{dt}\!\left(\frac{\mathbf{r}}{r}\right)=\frac{1}{m r^3}\,\mathbf{L}\times\mathbf{r}
+$$
+
+を用いて, $\dfrac{d\boldsymbol{\varepsilon}}{dt}=\mathbf{0}$, すなわち $\boldsymbol{\varepsilon}$ が保存することを示せ.
+
+2. $\boldsymbol{\varepsilon}\cdot\mathbf{r}$ を計算する. スカラー三重積 $(\mathbf{v}\times\mathbf{L})\cdot\mathbf{r}=\mathbf{L}\cdot(\mathbf{r}\times\mathbf{v})$ と $\mathbf{r}\times\mathbf{v}=\mathbf{L}/m$, および $|\mathbf{L}|=mh$ ($h=r^2\dot\varphi$) を用いて,
+
+$$
+\boldsymbol{\varepsilon}\cdot\mathbf{r}=\frac{h^2}{GM}-r
+$$
+
+となることを示せ. ここから, $\boldsymbol{\varepsilon}$ と $\mathbf{r}$ のなす角を $\varphi$ として, 軌道方程式
+
+$$
+r=\frac{\ell}{1+\varepsilon\cos\varphi},\qquad
+\ell=\frac{h^2}{GM},\qquad
+\varepsilon=|\boldsymbol{\varepsilon}|
+$$
+
+を導け.
+
+3. 2. の結果から, $\boldsymbol{\varepsilon}$ が近日点 ($r$ が最小になる方向, $\varphi=0$) を向く一定ベクトルであり, その大きさ $|\boldsymbol{\varepsilon}|$ が軌道の離心率に等しいことを説明せよ.
